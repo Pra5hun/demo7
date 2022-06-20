@@ -1,0 +1,60 @@
+Java is a programming language and computing platform first released by Sun Microsystems in 1995. It has evolved humble beginnings to power a large share of today's
+digital world, by providing the reliable platform upon which many services and applications are built.
+
+Java is easy to learn. Java was designed to be easy to use and is therefore easy to write, compile,debug, and learn than other programming languages. Java is object-or
+iented which allows to create modular programs and reusable code. Java is platform-independent, one of the most significant advantages of Java is its ability to move 
+easily from one computer systems is crucial to World Wide Web software, and Java succeeds at this by being platform-independent at both the source and binary levels.
+
+
+1. Write a Java program to print your name,  your address, your age.
+
+MyIntro.java
+
+import java.io.*;
+
+public class MyIntro{
+       public stastic void main (String[] args){
+       System.out.println("My name is Prashun Basnet. I live in Balaju and i am 20 years old.")
+2. Complete the following operation :
+      - Addition 
+      - Subtraction
+      - Multiplication
+      - Division
+
+MiniCalc.java
+import java.io*;
+
+public class MiniCalc{
+       public int add (int int a, int int b){
+       return int a + int b;
+       }
+       public int subtract (int int a, int int b){
+       return int a - int b;
+       }
+       public int multiply (int int a, int int b){
+       return int a * int b;
+       }
+       public int divide (int int a, int int b){
+       return int a / int b;
+       }
+       public static void main ( String [] str) {
+       System.out.println ("MiniCalc"); 
+       MiniCalc.mc=new MiniCalc();
+
+       int int a = mc.add (1,2);
+       int int b = mc.subtract (3,4);
+       int int c = mc.multiply (5,6);
+       int int d = mc.divide (7,8);
+       
+       System.out.println(int a)
+       System.out.println(int b)
+       System.out.println(int c)
+       System.out.println(int d)
+       }
+
+       }
+       
+
+      
+       
+  
